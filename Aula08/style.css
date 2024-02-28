@@ -1,0 +1,112 @@
+/*
+.calculadora {
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+#resultado {
+    background-color: rgb(218, 230, 242);
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+.operador {
+    background-color: #a5daf1;
+}
+
+#Igual {
+    background-color: #a8e5a8;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculadora{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 50px;
+
+}
+
+#resultado{
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.calculadora button{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.calculadora button:hover{
+    background-color: rgb(4, 0, 0);
+    color: aliceblue;
+
+}
+
+.calculadora .operador{
+    background-color: rgb(135, 137, 238);
+    color: aliceblue;
+
+}
+
+#Igual{
+    width: 41%;
+}
+
+#limpar{
+    width: 62%;
+}
+
+
